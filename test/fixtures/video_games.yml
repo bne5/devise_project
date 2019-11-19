@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  year: 1
+  genre: MyString
+  owned: false
+  played: false
+  rating: 1
+  about: MyText
+  user: one
+
+two:
+  title: MyString
+  year: 1
+  genre: MyString
+  owned: false
+  played: false
+  rating: 1
+  about: MyText
+  user: two

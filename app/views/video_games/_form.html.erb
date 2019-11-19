@@ -1,0 +1,25 @@
+<%= form_with(model: @video_game, local: true) do |f| %>
+  <div class="field">
+    <%= f.label :title %>
+    <%= f.text_field :title, required: true, placeholder: "Title" %>
+  </div>
+  <div class="field">
+    <%= f.label :year %>
+    <%= f.number_field :year, required: true, placeholder: "Year" %>
+  </div>
+  <div class="input-field col s12">
+    <% f.label :genre %>
+    <%= f.text_field :genre, required: true, placeholder: "Genre" %>
+  </div>
+  <div class="field">
+    <%= f.label :rating %>
+    <%= f.number_field :rating, required: true, placeholder: "Rating" %>
+  </div>
+  <div class="field">
+    <%= f.label :about %>
+    <%= f.text_field :about, required: true, placeholder: "About" %>
+  </div>
+ 
+  
+    <%= f.submit %>
+<% end %>
